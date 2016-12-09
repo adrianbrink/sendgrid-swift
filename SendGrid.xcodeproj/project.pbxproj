@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		770850A01CE64F7500861BA1 /* SendGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 7708509F1CE64F7500861BA1 /* SendGrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13AE2BFD1DFA9FE400F98518 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13AE2BFC1DFA9FE400F98518 /* Info.plist */; };
 		770850A71CE64F7500861BA1 /* SendGrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7708509C1CE64F7500861BA1 /* SendGrid.framework */; };
 		770850C81CE6536F00861BA1 /* AddressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770850C71CE6536F00861BA1 /* AddressTests.swift */; };
 		770D1AC81D8CB71D0084A3B2 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770D1AA01D8CB71D0084A3B2 /* Address.swift */; };
@@ -88,9 +88,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13AE2BFC1DFA9FE400F98518 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7708509C1CE64F7500861BA1 /* SendGrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SendGrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7708509F1CE64F7500861BA1 /* SendGrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendGrid.h; sourceTree = "<group>"; };
-		770850A11CE64F7500861BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		770850A61CE64F7500861BA1 /* SendGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		770850AD1CE64F7500861BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		770850C71CE6536F00861BA1 /* AddressTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressTests.swift; sourceTree = "<group>"; };
@@ -201,9 +200,8 @@
 		7708509E1CE64F7500861BA1 /* SendGrid */ = {
 			isa = PBXGroup;
 			children = (
+				13AE2BFC1DFA9FE400F98518 /* Info.plist */,
 				770850BA1CE64FD500861BA1 /* Sources */,
-				7708509F1CE64F7500861BA1 /* SendGrid.h */,
-				770850A11CE64F7500861BA1 /* Info.plist */,
 			);
 			path = SendGrid;
 			sourceTree = "<group>";
@@ -432,7 +430,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				770850A01CE64F7500861BA1 /* SendGrid.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +515,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13AE2BFD1DFA9FE400F98518 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
